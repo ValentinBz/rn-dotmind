@@ -58,8 +58,8 @@ export default class UserList extends React.Component {
 
 	endScroll = () => {
 		return () => {
-			// const { getData } = this.props;
-			// getData();
+			const { getData } = this.props;
+			getData();
 		};
 	};
 
